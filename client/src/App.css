@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7bff86;
+}
+
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  width: 150px;
+  height: 31px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: #70d4f6;
+  color: #f1fbff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f1fbff;
+  color: #70d4f6;
+  border: 1px solid #70d4f6;
+}
+
+.friendContainer button:hover {
+  background-color: #f1fbff;
+  color: #70d4f6;
+  border: 1px solid #70d4f6;
+}
+
+#removeBtn:hover {
+  background-color: #f1fbff;
+  color: #70d4f6;
+  border: 1px solid #70d4f6;
+}
+
+.friendContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: row;
+  background-color: #7bff86;
+  height: 100%;
+  width: 100%;
+}
+
+.friend {
+  height: 60px;
+  width: 400px;
+  display: flex;
+  background-color: #0f7417;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+}
+
+.friend h3 {
+  margin-left: 20px;
+}
+
+.listOfFriends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.friendContainer button {
+  width: 150px;
+  height: 31px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: #f670dd;
+  color: #f1fbff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#removeBtn {
+  background-color: #f670dd;
+  color: #f1fbff;
+  border: none;
+  border-radius: 5px;
+  border-left: none;
+  cursor: pointer;
+}
